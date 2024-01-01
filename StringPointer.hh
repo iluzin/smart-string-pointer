@@ -1,6 +1,8 @@
 #ifndef __STRINGPOINTER_HH__
 #define __STRINGPOINTER_HH__
 
+#include <string>
+
 class StringPointer {
     std::string *pointer_;
     static std::string empty_;
